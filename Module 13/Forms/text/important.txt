@@ -1,0 +1,9 @@
+1. how to install crispy:
+    command : $ pip install crispy-bootstrap5
+    add setteings.py : 
+                    (apps):"crispy_forms",
+                            "crispy_bootstrap5", 
+                    CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+                    CRISPY_TEMPLATE_PACK = "bootstrap5"
+
+2. Built-in Validators use korar jonno : from django.core import Validators 

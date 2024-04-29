@@ -1,8 +1,8 @@
 
 from django.urls import path
-from . import views
+from .views import home
 urlpatterns = [
-    path('', views.index , name='index'),
-    path('form/', views.form , name='form'),
-    path('about/', views.about , name='about'),
+    # path('', views.index , name='Homepage'),
+    path('', home , name='Homepage'),
+    # path('delete/<int:roll>' , views.student_delete , name='Delete_Student'),
 ]

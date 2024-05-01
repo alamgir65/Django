@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h3>{{name | default:"No data is available here"}}</h3>
+<h3>{{email | default:"No data is available here"}}</h3>
+{% endblock content %}

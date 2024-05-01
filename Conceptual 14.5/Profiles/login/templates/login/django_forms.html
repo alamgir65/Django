@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container">
+    <form >
+        {{ form | crispy}}
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+
+
+{% comment %} <div>
+    <h3> Name : {{form.name}}</h3>
+    <h3> Email : {{form.email}}</h3>
+</div> {% endcomment %}
+
+{% endblock  %}
